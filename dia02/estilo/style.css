@@ -36,6 +36,7 @@ a:hover {
     grid-column: span 2;
     height: 100%;
     background-color: #00204A;
+    border-radius: 3px 0 0 3px;
 }
 
 .right-section {
@@ -149,6 +150,8 @@ a:hover {
 }
 
 .right-title {
+    background-image:linear-gradient(to left, #00204a49, transparent);
+    border-radius: 3px 30px 30px 3px;
     color: #70C6C7;
     font-size: 40px;
     letter-spacing: 2px;
@@ -156,7 +159,8 @@ a:hover {
     font-weight: bold;
     display: flex;
     align-items: center;
-    padding: 2rem 0;
+    padding: 1rem 0 1rem 20px;
+    margin-bottom: 20px;
     position: relative;
 }
 
