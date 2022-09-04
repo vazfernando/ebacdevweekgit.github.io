@@ -271,6 +271,7 @@ a:hover {
 
     .right-title {
         font-size: 18px;
+        max-width: 300px;
     }
 
     .contact-info ul li,
